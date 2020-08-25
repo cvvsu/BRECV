@@ -14,7 +14,7 @@ end
 
 %% select bands
 [idx_BRCV, idx_BRECV,idx_BRECVD] = get_BRECV(im);
-[idx_BRE, idx_BRED] = get_BRE(im);    % entropy costs more time than CV based methods
+[idx_BRE, idx_BRED] = get_BRE(im);    % entropy based methods cost more time than CV based methods
 
 %% evaluation
 num_select = 30;
