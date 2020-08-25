@@ -27,6 +27,8 @@ im_mat = im_mat / max(im_mat(:));
 ent_left = zeros(chs, 1); ent_right = zeros(chs, 1);
 ent = zeros(chs, 1);
 
+% https://stackoverflow.com/questions/23691398/mutual-information-and-joint-entropy-of-two-images-matlab
+
 for i = 1 : chs - 1
     [~, ~, ind1] = unique(im_mat(:,i));
     [~, ~, ind2] = unique(im_mat(:,i+1));
