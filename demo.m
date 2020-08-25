@@ -18,7 +18,7 @@ end
 
 %% evaluation
 num_select = 30;
-loop_times = 1;  % please kindly change this parameter, we use 100
+loop_times = 1;  % please kindly change this parameter
 
 % the base line
 [base_svm, base_knn] = get_classification_acc(im, gt, loop_times);
