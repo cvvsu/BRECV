@@ -6,7 +6,7 @@ warning off;
 addpath(genpath(pwd));
 
 %% read images
-fn = 'Indian_pines';  
+fn = 'Indian_pines';
 [im, imc, gt] = read_images(fn);
 if ~isempty(imc)
     im = imc;
@@ -14,7 +14,7 @@ end
 
 %% select bands
 [idx_BRCV, idx_BRECV,idx_BRECVD] = get_BRECV(im);
-[idx_BRE, idx_BRED] = get_BRE(im);
+[idx_BRE, idx_BRED] = get_BRE(im);    % entropy costs more time than CV based methods
 
 %% evaluation
 num_select = 30;
