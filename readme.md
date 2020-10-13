@@ -1,6 +1,6 @@
 # Band Ranking via Extended Coefficient of Variation for Hyperspectral Band Selection
 
-![GA](./images/GA_560_1100.svg)
+![GA](./images/GA_560_1100.png)
 
 ## Datasets
 
