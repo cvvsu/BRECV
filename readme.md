@@ -1,11 +1,19 @@
+# Band Ranking via Extended Coefficient of Variation for Hyperspectral Band Selection
 
+![GA](./images/GA_560_1100.svg)
+
+## Datasets
+
+Please download the datasets from [this link](http://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes) and put them under the `datasets` folder. In our experiments, we use the
+`corrected` scenes (w/o water absorption bands).
 
 ## How to use
 
 1. Please put your hyperspectral data sets under the `datasets` folder.
 2. Change the variable `fn` in `demo.m`
-3. Change the variable `num_select` in `demo.m`
-4. Change the variable `loop_times` in `demo.m`
+3. Change the variable `num_select` in `demo.m` (for classification)
+4. Change the variable `loop_times` in `demo.m` (for classification)
+5. Run `demo.m`
 
 
 
