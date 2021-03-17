@@ -20,4 +20,6 @@ Please download the datasets from [this link](http://www.ehu.eus/ccwintco/index.
 
 ## License
 
-The code is released under [GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.en.html).
+~~The code is released under [GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.en.html).~~
+
+The code is released under the Apache 2.0 license. Please refer to the [LICENSE file](https://www.apache.org/licenses/LICENSE-2.0) for more information.
